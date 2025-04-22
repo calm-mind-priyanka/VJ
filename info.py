@@ -89,7 +89,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+KMWdbBYF9SdjZDBl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+pj3O-ATc9i5mZTI1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+DiOcxJnNQXdmNDdl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'sandy_supportlink') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Sandymaiwait')
 
@@ -113,22 +113,22 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'shortifyurl.in')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '7e5614ab72f04b5f6df4e1e93c8fca3bd1910574')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'shortner.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '5b22551890e0d5f2fded51fd64218868131bef1a')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+URI0ggQ1mLAyM2Y1')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'shortner.in')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '5b22551890e0d5f2fded51fd64218868131bef1a')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
-TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortifyurl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '7e5614ab72f04b5f6df4e1e93c8fca3bd1910574')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+URI0ggQ1mLAyM2Y1') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
